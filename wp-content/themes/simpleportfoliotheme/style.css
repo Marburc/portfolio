@@ -512,12 +512,18 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
         }
     }
     
-    #about img {
-        border: 1px solid #00222e;
-        border-radius: 50%;
-        width: 300px;
+    .about__text {
+        padding-left: 6rem;
+    }
+    
+    .about-title {
+        font-weight: 700;
+    }
+    
+    .about-img {
+        padding-top: 10px;
+        width: 400px;
         height: auto;
-        float: left;
     }
     
     #about .media {

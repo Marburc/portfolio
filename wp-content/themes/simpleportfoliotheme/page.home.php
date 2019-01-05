@@ -50,24 +50,21 @@ get_header();?>
     <!-- ABOUT -->
     <section id="about" class=" py-6 ">
         <div class="container">
-        <h2 class="text-center mb-5 text-primary h1"> <?php echo $about_title ?> </h2>
             <div class="row ">
-                
-               <div class="col-md-4">
-               <?php if(!empty($about_image)) :  ?>
-                    <img src="<?php echo $about_image['url']; ?>" class="mr-5" alt="<?php echo $about_image['alt']; ?>">
-<?php endif; ?>
-</div>  
-<div class="col-md-8">
-               <p class="p-format "> <?php echo $about_desc ?> </p>
-
-               </div>
-               </div>
-             
+               <div class="col-lg-4">
+                   <div class="about-img">
+                        <?php if(!empty($about_image)) :  ?>
+                            <img src="<?php echo $about_image['url']; ?>" class=" about-img" alt="<?php echo $about_image['alt']; ?>">
+                            <?php endif; ?>
+                   </div>
+               </div>  
+               <div class="col-lg-8 ">
+                    <div class="about__text">
+                        <h2 class="text-left mb-3 text-primary h1 about-title"> <?php echo $about_title ?> </h2>
+                        <p class="p-format "> <?php echo $about_desc ?> </p>
+                    </div>
                 </div>
-
-            
-
+            </div>
         </div>
     </section>
 
