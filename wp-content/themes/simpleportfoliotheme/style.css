@@ -383,7 +383,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
     
     #header {
         position: relative;
-        background: url("/wp-content/themes/simpleportfoliotheme/assets/img/hero-image-large1.jpg");
+        /* background: url("/wp-content/themes/simpleportfoliotheme/assets/img/hero-image-large1.jpg"); */
         min-height: 100vh;
         background-size: cover;
         background-attachment: fixed;
