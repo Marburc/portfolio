@@ -15,12 +15,15 @@
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	<link rel='pingback' href="<?php bloginfo('pingback_url')?>">
+	
 
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:300,700" rel="stylesheet">
-    <link rel="stylesheet" href=" <?php bloginfo('stylesheet_directory'); ?>/assets/css/bootstrap.css">
+	<link rel="stylesheet" href=" <?php bloginfo('stylesheet_directory'); ?>/assets/css/bootstrap.css">
+	<link rel="stylesheet" href=" <?php bloginfo('stylesheet_directory'); ?>/assets/css/animate.css">
    
 
 	<?php wp_head(); ?>

@@ -29,10 +29,10 @@ get_header();?>
             <div class="container">
                 <div class="row  ">
                     <div class="col ">
-                        <div class="header-text-wrapper mt-2">
-                            <h1 class="display-3 text-uppercase mb-4"><?php echo $header_title ?></h1>
-                            <p class="mb-5 font-weight-light " > <?php echo $header_subtitle ?></p>
-                            <a href="#" class="btn btn-secondary btn-lg text-white"> <i class="fas fa-arrow-right mr-2"></i>Read More </a>
+                        <div class="header-text-wrapper mt-2 ">
+                            <h1 class="display-3 text-uppercase mb-4" data-aos="fade-right" data-aos-duration="2000"><?php echo $header_title ?></h1>
+                            <p class="mb-5 font-weight-light " data-aos="fade-left" data-aos-duration="2000" > <?php echo $header_subtitle ?></p>
+                            <a href="#" class="btn btn-secondary btn-lg text-white" data-aos="fade-right" data-aos-duration="2000"> <i class="fas fa-arrow-right mr-2"></i>Read More </a>
                         </div>
                     </div>
                 </div>
@@ -52,16 +52,16 @@ get_header();?>
         <div class="container">
             <div class="row ">
                <div class="col-lg-4">
-                   <div class="about-img">
+                   <div data-aos="fade-right" data-aos-duration="1000">
                         <?php if(!empty($about_image)) :  ?>
-                            <img src="<?php echo $about_image['url']; ?>" class=" about-img" alt="<?php echo $about_image['alt']; ?>">
+                            <img src="<?php echo $about_image['url']; ?>" class=" about-img  " alt="<?php echo $about_image['alt']; ?>">
                             <?php endif; ?>
                    </div>
                </div>  
                <div class="col-lg-8 ">
-                    <div class="about__text">
-                        <h2 class="text-left mb-3 text-primary h1 about-title"> <?php echo $about_title ?> </h2>
-                        <p class="p-format "> <?php echo $about_desc ?> </p>
+                    <div class="about__text " data-aos="fade-left" data-aos-duration="1000">
+                        <h2 class="text-left mb-3 text-primary h1 about-title "> <?php echo $about_title ?> </h2>
+                        <p class="p-format about-description hide"> <?php echo $about_desc ?> </p>
                     </div>
                 </div>
             </div>
@@ -73,11 +73,11 @@ get_header();?>
 
     <section id="portfolio" class="py-6  text-center ">
         <div class="container portfolio">
-            <h2 class=" text-white h1 ">Portfolio</h2>
+            <h2 class=" text-white h1 " data-aos="fade-down" data-aos-duration="1000">Portfolio</h2>
             <div class="row justify-content-center">
 
 
-                <div class="flip-card">
+                <div class="flip-card" data-aos="fade-right" data-aos-duration="1000">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
                         <?php if(!empty($portolio_image_one)) :  ?>
@@ -91,7 +91,7 @@ get_header();?>
                         </div>
                     </div>
                 </div>
-                <div class="flip-card">
+                <div class="flip-card" data-aos="fade-up" data-aos-duration="1000">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
                         <?php if(!empty($portolio_image_one)) :  ?>
@@ -106,7 +106,7 @@ get_header();?>
                     </div>
                 </div>
 
-                <div class="flip-card">
+                <div class="flip-card" data-aos="fade-left" data-aos-duration="1000">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
                         <?php if(!empty($portolio_image_three)) :  ?>
@@ -129,7 +129,9 @@ get_header();?>
     <section id="contact" class="py-6">
         <div class="container">
             <div class="row">
+               
                 <div class="col text-center py6">
+                <div data-aos="flip-up" data-aos-duration="2000">
                     <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/Logo-2.png" width="100" height="100" alt="">
                     <h3 class=" display-5 py-1 "><?php echo $contact_title ?></h3>
                     <p class="mb-4"><?php echo $contact_subtitle ?></p>
@@ -137,7 +139,7 @@ get_header();?>
                         <button class="btn btn-lg mb-4 btn-outline-primary" data-toggle="modal" data-target="#myModal"> <i class="fas fa-envelope mr-2"></i>Contact </button>
                     </div>
 
-
+                </div>
                     <!-- modal -->
                     <div class="modal fade text-dark" id="myModal">
                         <div class="modal-dialog">
@@ -168,9 +170,9 @@ get_header();?>
                         </div>
                     </div>
                     <!-- icons -->
-                    <a href="https://de.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                    <a href='https://facebook.com' target="_blank"> <i class="fab fa-facebook-f"></i></a>
-                    <a href='https://github.com/Marburc' target="_blank"> <i class="fab fas fa-code-branch"></i></a>
+                    <a href="https://de.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in" <div data-aos="flip-left" data-aos-duration="2000"></i></a>
+                    <a href='https://facebook.com' target="_blank"> <i class="fab fa-facebook-f" <div data-aos="flip-down" data-aos-duration="2000"></i></a>
+                    <a href='https://github.com/Marburc' target="_blank"> <i class="fab fas fa-code-branch" <div data-aos="flip-right" data-aos-duration="2000">></i></a>
 
 
                 </div>
