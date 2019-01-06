@@ -30,20 +30,13 @@ get_header();?>
                 <div class="row  ">
                     <div class="col ">
                         <div class="header-text-wrapper mt-2 ">
-                            <h1 class="display-3 text-uppercase mb-4" data-aos="fade-right" data-aos-duration="2000"><?php echo $header_title ?></h1>
-                            <p class="mb-5 font-weight-light " data-aos="fade-left" data-aos-duration="2000" > <?php echo $header_subtitle ?></p>
-                            <a href="#" class="btn btn-secondary btn-lg text-white" data-aos="fade-right" data-aos-duration="2000"> <i class="fas fa-arrow-right mr-2"></i>Read More </a>
+                            <h1 class="small-shadow display-3 text-uppercase mb-4" data-aos="fade-right" data-aos-duration="2000"><?php echo $header_title ?></h1>
+                            <p class="small-shadow mb-5 font-weight-light " data-aos="fade-left" data-aos-duration="2000" > <?php echo $header_subtitle ?></p>
+                            <a href="#" class=" btn btn-secondary btn-lg text-white" data-aos="fade-right" data-aos-duration="2000"> <i class="fas fa-arrow-right mr-2"></i>Read More </a>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="stars">
-            <div class="small"></div>
-
-            <div class="medium"></div>
-
-            <div class="big"></div>
         </div>
     </header>
 
