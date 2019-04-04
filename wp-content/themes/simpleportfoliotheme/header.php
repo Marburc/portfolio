@@ -21,7 +21,7 @@
 	
 
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,|Raleway:300,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,|Raleway:300,700,100" rel="stylesheet">
 	<link rel="stylesheet" href=" <?php bloginfo('stylesheet_directory'); ?>/assets/css/bootstrap.css">
 	<link rel="stylesheet" href=" <?php bloginfo('stylesheet_directory'); ?>/assets/css/animate.css">
    
@@ -42,7 +42,7 @@
  <nav class="navbar navbar-expand-xxl navbar-dark fixed-top bg-transparent " id="main-nav" role="navigation" >
        
             <a href="#home" class="navbar-brand">
-                <img class="logo" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/Logo-2.png" width="100" height="100" alt="">
+                <img class="logo" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/Logo-2.png" width="100" height="100" alt="Logo">
 
             </a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"

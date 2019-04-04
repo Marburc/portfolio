@@ -32,7 +32,7 @@ get_header();?>
                         <div class="header-text-wrapper mt-2 ">
                             <h1 class="small-shadow display-3 text-uppercase mb-4" data-aos="fade-right" data-aos-duration="2000"><?php echo $header_title ?></h1>
                             <p class="small-shadow mb-5 font-weight-light " data-aos="fade-left" data-aos-duration="2000" > <?php echo $header_subtitle ?></p>
-                            <a href="#" class=" btn btn-secondary btn-lg text-white" data-aos="fade-right" data-aos-duration="2000"> <i class="fas fa-arrow-right mr-2"></i>Read More </a>
+                            <a href="#contact" class=" btn btn-secondary btn-lg text-white contact-popup" data-aos="fade-right" data-aos-duration="2000"> <i class="fas fa-arrow-right mr-2"></i>Kontakt</a>
                         </div>
                     </div>
                 </div>
@@ -43,20 +43,17 @@ get_header();?>
     <!-- ABOUT -->
     <section id="about" class=" py-6 ">
         <div class="container">
-            <div class="row ">
-               <div class="col-lg-4">
-                   <div data-aos="fade-right" data-aos-duration="1000">
-                        <?php if(!empty($about_image)) :  ?>
-                            <img src="<?php echo $about_image['url']; ?>" class=" about-img  " alt="<?php echo $about_image['alt']; ?>">
-                            <?php endif; ?>
-                   </div>
-               </div>  
-               <div class="col-lg-8 ">
+           
                     <div class="about__text " data-aos="fade-left" data-aos-duration="1000">
-                        <h2 class="text-left mb-3 text-primary h1 about-title "> <?php echo $about_title ?> </h2>
+                        <h2 class=" mb-3 text-primary h1 about-title "> <?php echo $about_title ?> </h2>
+                        <h3 class="mb-4" >Frontend Developer aus Berlin</h3>
+                        <div data-aos="fade-right" data-aos-duration="1000">
+                        <?php if(!empty($about_image)) :  ?>
+                            <img src="<?php echo $about_image['url']; ?>" class=" about-img mb-5 " alt="<?php echo $about_image['alt']; ?>">
+                            <?php endif; ?>
                         <p class="p-format about-description hide"> <?php echo $about_desc ?> </p>
                     </div>
-                </div>
+               
             </div>
         </div>
     </section>
@@ -94,7 +91,8 @@ get_header();?>
                         <div class="flip-card-back">
 
                             <p class=" ">Blockchain pioneers bringing transparency, trust, and security to.</p>
-                            <a href="#" class="btn btn-outline-secondary btn-lg text-white"> <i class="fas fa-arrow-right mr-2"></i>Read More </a>
+                            <a target="_blank" href="https://github.com/Marburc/my-todo" class="btn btn-outline-secondary btn-sm text-white"> <i class="fas fa-arrow-right mr-2"></i>Zu Git </a>
+                            <a  target="_blank" href="https://marburc.github.io/my-todo/" class="btn btn-outline-secondary btn-sm text-white"> <i class="fas fa-arrow-right mr-2"></i>Zur App </a>
                         </div>
                     </div>
                 </div>
@@ -108,8 +106,9 @@ get_header();?>
                         </div>
                         <div class="flip-card-back">
 
-                            <p>Vancouver's tower crane rental service and support leader since 1974.</p>
-                            <a href="#" class="btn btn-outline-secondary btn-lg text-white"> <i class="fas fa-arrow-right mr-2"></i>Read More </a>
+                            <p>Eine kleines Spiel, welches ich auf Basis von Vue.js programmiert habe. </p>
+                            <a target="_blank" href="https://github.com/Marburc/remember" class="btn btn-outline-secondary btn-sm text-white"> <i class="fas fa-arrow-right mr-2"></i>Zu Git </a>
+                            <a  target="_blank" href="https://marburc.github.io/remember/" class="btn btn-outline-secondary btn-sm text-white"> <i class="fas fa-arrow-right mr-2"></i>Zum Spiel </a>
                         </div>
                     </div>
                 </div>
@@ -127,14 +126,14 @@ get_header();?>
                 <div data-aos="flip-up" data-aos-duration="2000">
                     <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/Logo-2.png" width="100" height="100" alt="">
                     <h3 class=" display-5 py-1 "><?php echo $contact_title ?></h3>
-                    <p class="mb-4"><?php echo $contact_subtitle ?></p>
+                    <!-- <p class="mb-4"><?php echo $contact_subtitle ?></p> -->
                     <div>
-                        <button class="btn btn-lg mb-4 btn-outline-primary" data-toggle="modal" data-target="#myModal"> <i class="fas fa-envelope mr-2"></i>Contact </button>
+                        <button class="btn btn-lg mb-4 btn-outline-primary contact-popup" data-toggle="modal" data-target="#myModal"> <i class="fas fa-envelope mr-2"></i>Kontakt </button>
                     </div>
 
                 </div>
                     <!-- modal -->
-                    <div class="modal fade text-dark" id="myModal">
+                    <!-- <div class="modal fade text-dark" id="myModal">
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
@@ -161,7 +160,7 @@ get_header();?>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <!-- icons -->
                     <a href="https://de.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in" <div data-aos="flip-left" data-aos-duration="2000"></i></a>
                     <a href='https://facebook.com' target="_blank"> <i class="fab fa-facebook-f" <div data-aos="flip-down" data-aos-duration="2000"></i></a>

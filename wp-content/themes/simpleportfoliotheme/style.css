@@ -368,7 +368,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
     }
     
     .p-format {
-        line-height: 2.9rem;
+        line-height: 2.3rem;
         letter-spacing: 1.8px;
     }
     
@@ -424,6 +424,12 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
         letter-spacing: 5px;
         font-size: 1.5rem;
     }
+    #about {
+        text-align: center
+    }
+    #about h3 {
+        font-weight: 100;
+    }
     
     .about__text {
         padding-left: 6rem;
@@ -435,10 +441,10 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
     
     .about-img {
         padding-top: 10px;
-        width: 350px;
+        width: 150px;
         height: auto;
-        /* border-radius: 50%;
-        border: 1px solid rgb(100, 100, 100) */
+         border-radius: 50%;
+        
         
     }
     
@@ -529,6 +535,9 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
         float: left;
         width: 100%;
     }
+    .navbar-toggler {
+        margin-top: -10px;
+    }
     
     .fixed-top.scrolled {
         background-color: rgba(255, 255, 255, 0.945) !important;
@@ -537,8 +546,9 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
     }
     
     .scroll-logo {
-        width: 70px;
-        height: 70px;
+        width: 60px;
+        height: 60px;
+        margin-top: -13px
     }
     
     .scroll-toggler {
